@@ -58,6 +58,35 @@ The original data is contained in two different csv files:
 * [Neighborhoods .csv file](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LosAngeles.csv)
 * [Venues .csv file](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LosAngelesVenues.csv)
 
+## 5.- Methodology
+To better understand the field and the problem we have to solve, we need to use visual tools that help us to make decissions.
+
+First we will classify the data we have to understand which are the LA people preferences. For instance, probably we will not find any Scotish restaurant (or very few) but a bunch of Mexican or Latin restaurants.
+
+Once we know the preferences we will choose a restaurant of this type based on these:
+
+**If we choose a type of food that LA people doesn't like now, we will have no competitors, but also we will have no customers**
+
+**If we choose a type of food that LA people like now but we place it where there are a lot of competitors with the same food type, we will not have a lot of customers**
+
+**We need to place a restaurant specialized in a food type that LA people likes in a neighborhood with few competitors. Does this exist?**
+
+We need two tools for our purpose:
+* **Ranking tools**: Python Pandas and Numpy will be enough
+* **Clustering tools**: As we are clustering based on geographic coordinates it is recommendable to use DBSCAN algorithm
+
+So, the steps to reach our conclussions will be:
+1. Rank all the food types in LA to know what customers like
+2. Select our top n food types to make the clustering analysis with
+3. Select all the existing restaurant for the selected categories and place it in the map
+4. Use clustering tools to divide the map into different numbered clusters
+5. Classify food types / clusters using a weighted matrix
+6. Analyze with maps and the matrix which are our options
+7. Make a decission/recommendation
+
+
+
+
 
 
 
