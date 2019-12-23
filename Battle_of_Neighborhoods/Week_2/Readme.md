@@ -84,9 +84,49 @@ So, the steps to reach our conclussions will be:
 6. Analyze with maps and the matrix which are our options
 7. Make a decission/recommendation
 
+## 6.- Modeling
+**Important:** Take into account that the details of the data modeling/analysis are contained in the Notebook. Here I will only place the images to easily explain the process**
 
+### 6.1 The restaurants dataframe
+![Restaurants dataframe](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_RestaurantsDataframe.png?raw=true)
 
+### 6.2 Choosing the top n food types
+![Food types histogram](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_top_7.png?raw=true)
+![Top 7 Food types](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Top_7_list.png?raw=true)
 
+### 6.3 Map distribution of top 7 food types restaurants
+![Map distribution of top 7](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Rest_types.png?raw=true)
+
+### 6.4 Clustering places with DBSCAN
+![Map distribution of top 7](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Clusters.png?raw=true)
+
+### 6.4.1 Cluster 0
+![Cluster 0](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Cluster_00.png?raw=true)
+
+### 6.4.1 Cluster 1
+![Cluster 1](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Cluster_01.png?raw=true)
+
+### 6.4.1 Cluster 2
+![Cluster 2](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Cluster_02.png?raw=true)
+
+### 6.4.1 Cluster 3
+![Cluster 3](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Cluster_03.png?raw=true)
+
+### 6.4.1 Cluster 4
+![Cluster 4](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Cluster_04.png?raw=true)
+
+### 6.4.1 Cluster 5
+![Cluster 5](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Cluster_05.png?raw=true)
+
+### 6.4.1 Cluster 6
+![Cluster 6](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Cluster_06.png?raw=true)
+
+### 7 Type of Food x Cluster Matrix
+![7 Type of Food x Cluster Matrix](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/Cross_Type_Cluster.png?raw=true)
+
+### 8 Final Analysis
+![8 Final Analysis 1](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Clusters_1_2_3_6.png?raw=true)
+![8 Final Analysis 2](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/WeightedResults.png?raw=true)
 
 
 
