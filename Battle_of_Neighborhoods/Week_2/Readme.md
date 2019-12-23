@@ -22,5 +22,35 @@ Based on that, we need to accomplish two requirements and use available free int
 1. Select the **food type** for our restaurant
 2. Choose the **neighborhood** where we wil place our restaurant
 
-## 2.- Data 
+## 2.- Data Requirements
 We will retrieve our data from two different sources:
+* **Wikipedia**: list of Los Angeles neighborhoods & districts
+* **Foursquare**: list of restaurants for each of the neighborhoods
+
+_We will also use Nominatim API to get geographic coordinates for each place_
+
+## 3.- Data understanding
+* List of neighborhoods:
+
+We need to clean or remove those districts that seem to have incorrect information in Wikipedia. After analyzing each of them, it is not relevant to remove part of them as they are only small zones. Note that even we remove a small district, their restaurants will be in the venues list because they are enough close to another main district or neighborhood.
+
+* List of venues (restaurants):
+
+Though we specified **Restaurant** as the query for Foursquare API it returns some venues that are not really restaurants. We have to detect these cases and axclude them from the final list.
+
+* Coordinates (GEO):
+
+Some of the places are not geolocated. As we did with incorrect neighborhoods, we remove these places.
+
+## 4.- Data preparation
+**Nominatin API problems**
+As we mentioned above, we are using Nominating to get the GEO coords for all the places we will analyze. When we iterate the list of places and invoke Nominnating API, we get a **Service unavailable** error.
+
+We dealt with this problem in the next way:
+* Set a delay of 1 second between each invocation
+* Save the results we get (for every coordinates we get) so that we don't need to repeat the process for the same items
+
+
+
+
+
