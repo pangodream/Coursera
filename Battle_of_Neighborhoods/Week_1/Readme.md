@@ -32,3 +32,5 @@ Though we specified **Restaurant** as the query for Foursquare API it returns so
 * Coordinates (GEO):
 
 Some of the places are not geolocated. As we did with incorrect neighborhoods, we remove these places.
+
+![A new restaurant in Los Angeles](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_1/motivo.png?raw=true)
