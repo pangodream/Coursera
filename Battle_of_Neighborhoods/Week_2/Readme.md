@@ -128,7 +128,14 @@ So, the steps to reach our conclussions will be:
 ![8 Final Analysis 1](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LA_Clusters_1_2_3_6.png?raw=true)
 ![8 Final Analysis 2](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/WeightedResults.png?raw=true)
 
+## The weighted matrix shows that Cluster 1 and Cluster 2 are very good places to set an Italian Restaurant
+They are residential zones, and in the middle of both there is a hospital, what can bring us a lot of potential customers.
+![The place](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/Environment.png?raw=true)
+![The place map](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/PlaceMap.png?raw=true)
 
+## Our final recommendation
+Buying a residential house in the specified place and set an Italian restaurant.
+The name of the restaurant could be **The regression to pasta**
 
 
 
