@@ -12,6 +12,8 @@ Based on that, we need to accomplish two requirements and use available free int
 1. Select the **food type** for our restaurant
 2. Choose the **neighborhood** where we wil place our restaurant
 
+### We need to place a restaurant specialized in a food type that LA people likes in a neighborhood with few competitors. Does this exist?
+
 ## 2.- Data 
 We will retrieve our data from two different sources:
 * **Wikipedia**: list of Los Angeles neighborhoods & districts
