@@ -1,2 +1,2 @@
 ## Battle of Neighborhoods (Week 2)
-### Alberto Iriberri (dec 2019)
+### by Alberto Iriberri (Dec 2019)
