@@ -11,8 +11,9 @@ and also you may find interesting the Notebook I programmed to specifically extr
 [Los Angeles Wikipedia Extractor](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LANBExtractor.ipynb)
 
 # The presentation
+[Regression to Pasta PDF](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/Regression%20to%20Pasta.pdf)
+
 [Regression to Pasta Powerpoint](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/Regression%20to%20Pasta.pptx?raw=true)
-[Regression to Pasta PDF](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/Regression%20to%20Pasta.pdf?raw=true)
 
 # The Report
 ## 1.- Introduction (Business requirements)
