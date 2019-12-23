@@ -2,7 +2,7 @@
 ### by Alberto Iriberri (Dec 2019)
 
 # The project (Jupyter Notebook)
-You can find the Jupyter Notebook that I used to ellaborate the data and reach the final conclussions here:
+You can find the Jupyter Notebook that I used to ellaborate the data and reach the final conclusions here:
 
 [Los Angeles New restaurant Project](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LosAngelesFoursquareAndGeo.ipynb)
 
@@ -10,7 +10,11 @@ and also you may find interesting the Notebook I programmed to specifically extr
 
 [Los Angeles Wikipedia Extractor](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LANBExtractor.ipynb)
 
-# Report
+# The presentation
+[Regression to Pasta Powerpoint](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/Regression%20to%20Pasta.pptx?raw=true)
+[Regression to Pasta PDF](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/Regression%20to%20Pasta.pdf?raw=true)
+
+# The Report
 ## 1.- Introduction (Business requirements)
 As we discussed in the orevious week project, the main goal of this project is to find a good opportunity in Los Angeles, CA for opening a new restaurant.
 
@@ -75,7 +79,7 @@ We need two tools for our purpose:
 * **Ranking tools**: Python Pandas and Numpy will be enough
 * **Clustering tools**: As we are clustering based on geographic coordinates it is recommendable to use DBSCAN algorithm
 
-So, the steps to reach our conclussions will be:
+So, the steps to reach our conclusions will be:
 1. Rank all the food types in LA to know what customers like
 2. Select our top n food types to make the clustering analysis with
 3. Select all the existing restaurant for the selected categories and place it in the map
@@ -135,7 +139,7 @@ They are residential zones, and in the middle of both there is a hospital, what 
 
 ## Our final recommendation
 Buying a residential house in the specified place and set an Italian restaurant.
-The name of the restaurant could be **The regression to pasta**
+The name of the restaurant could be **Regression to pasta**
 
 
 
