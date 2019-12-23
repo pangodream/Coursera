@@ -44,11 +44,20 @@ Some of the places are not geolocated. As we did with incorrect neighborhoods, w
 
 ## 4.- Data preparation
 **Nominatin API problems**
+
 As we mentioned above, we are using Nominating to get the GEO coords for all the places we will analyze. When we iterate the list of places and invoke Nominnating API, we get a **Service unavailable** error.
 
 We dealt with this problem in the next way:
 * Set a delay of 1 second between each invocation
 * Save the results we get (for every coordinates we get) so that we don't need to repeat the process for the same items
+
+Data filtering and transformation will be done always on the origina data, and not on data previosly transformed or manipulated. This will allow us to perform as many tests as we need without the need of retrieving the original data again.
+
+The original data is contained in two different csv files:
+
+* [Neighborhoods .csv file](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LosAngeles.csv)
+* [Venues .csv file](https://github.com/pangodream/Coursera_Capstone/blob/master/Battle_of_Neighborhoods/Week_2/LosAngelesVenues.csv)
+
 
 
 
